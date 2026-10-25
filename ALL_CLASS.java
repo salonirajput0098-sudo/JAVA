@@ -7,7 +7,182 @@ class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello World!");
     }
+
 }
+
+
+//self
+
+class priya {
+    public static void main(String[] args) {
+        String str = "priya jaat";
+        System.out.println("my name is " + str);
+        }
+}
+
+//sum
+
+class frinedd {
+    public static void main(String[]args){
+        int a =10;
+        int b =20;
+        int sum = a + b;
+        System.out.println("Sum = " + sum); 
+
+    }
+}
+
+
+class Main {
+  public static void main(String[] args) {
+    System.out.println(3);
+    System.out.println(358);
+    System.out.println(50000);
+  }
+}
+
+
+
+class multi {
+  public static void main(String[] args) {
+    System.out.println(2 * 5);
+  }
+}
+
+
+
+class miain {
+  public static void main(String[] args) {
+    System.out.println("Hello World!");
+    System.out.println("I am learning Java.");
+    System.out.println("It is awesome!");
+  }
+}
+
+class fullname{
+    public static void main (String[]args){
+        String firstName = "saloni";
+        String lastName = "rajput"; 
+        String fullName = firstName + " " + lastName;
+        System.out.println(fullName);
+
+    }
+}
+
+// Write a Java program to declare and initialize variables of different data types.
+
+class Mai {
+  public static void main(String[] args) {
+    final int MINUTES_PER_HOUR = 60;
+    final int BIRTHYEAR = 1980;
+    final String CURRENTYEAR = "saloni rajput";
+
+    System.out.println(MINUTES_PER_HOUR);
+    System.out.println(BIRTHYEAR);
+    System.out.println(CURRENTYEAR);
+  }
+}
+
+
+
+class Maing {
+  public static void main(String[] args) {
+    // Student data
+    String studentName = "John Doe";
+    int studentID = 15;
+    int studentAge = 23;
+    float studentFee = 75.25f;
+    char studentGrade = 'B';
+    
+    // Print variables
+    System.out.println("Student name: " + studentName);
+    System.out.println("Student id: " + studentID);
+    System.out.println("Student age: " + studentAge);
+    System.out.println("Student fee: " + studentFee);
+    System.out.println("Student grade: " + studentGrade);
+  }
+}
+
+
+
+
+class Mainl {
+  public static void main(String[] args) {
+    // Create integer variables
+    int length = 4;
+    int width = 6;
+    int area;
+
+    // Calculate the area of a rectangle
+    area = length * width;
+
+    // Print variables
+    System.out.println("Length is: " + length);
+    System.out.println("Width is: " + width);
+    System.out.println("Area of the rectangle is: " + area);
+  }
+}
+
+
+//Data types in Java
+
+class a {
+  public static void main(String[] args) {
+    int myNum = 5;               // integer (whole number)
+    float myFloatNum = 5.99f;    // floating point number
+    char myLetter = 'D';         // character
+    boolean myBool = true;       // boolean
+    String myText = "Hello";     // String    
+    System.out.println(myNum);
+    System.out.println(myFloatNum);
+    System.out.println(myLetter);
+    System.out.println(myBool);
+    System.out.println(myText);
+  }
+}
+
+
+//Primitive Data Types in Java
+class data {
+  public static void main(String[] args) {
+    byte myNum = 100;
+    short myNumm = 5000;
+    int myNummm = 100000;
+    long myNummmm = 15000000000L;
+    float myNummmmmm = 5.75f;
+    double myNummmmmmmm = 19.99d;
+
+    System.out.println(myNum);  
+    System.out.println(myNumm);  
+    System.out.println(myNummm);  
+    System.out.println(myNummmm);  
+    System.out.println(myNummmmmm);  
+    System.out.println(myNummmmmmmm);  
+  }
+}
+
+//Boolean Data Type in Java
+class BooleanDataType { 
+  public static void main(String[] args) {
+    boolean isJavaFun = true;
+    boolean isFishTasty = false;
+
+    System.out.println(isJavaFun);     // Outputs true
+    System.out.println(isFishTasty);   // Outputs false
+  }
+}
+
+//Char 
+
+class bhg{
+  public static void main(String[] args) {
+    char myVar1 = 65, myVar2 = 'H', myVar3 = 67;
+    System.out.println(myVar1);
+    System.out.println(myVar2);
+    System.out.println(myVar3);
+  }
+}
+
 
 // Write a Java program to add two numbers.
 
@@ -19,6 +194,9 @@ class Sum {
         System.out.println(a + b);
     }
 }
+
+
+
 
 // Write a Java program to add five numbers input by the user.
 
@@ -49,20 +227,20 @@ class SumFive {
 // Given price = 850, quantity = 4, discount = 200,
 // delivery charge = 100. Calculate total price and final bill.
 
-// class Main {
-// public static void main(String[] args) {
-// int price = 850;
-// int quantity = 4;
-// int discount = 200;
-// int delivery = 100;
+ class M {
+   public static void main(String[] args) {
+  int price = 850;
+  int quantity = 4;
+  int discount = 200;
+  int delivery = 100;
 
-// int totalPrice = price * quantity;
-// int finalBill = totalPrice - discount + delivery;
+  int totalPrice = price * quantity;
+  int finalBill = totalPrice - discount + delivery;
 
-// System.out.println("Total Price = " + totalPrice);
-// System.out.println("Final Bill = " + finalBill);
-// }
-// }
+ System.out.println("Total Price = " + totalPrice);
+ System.out.println("Final Bill = " + finalBill);
+ }
+}
 
 // QUESTION 2 (Original)
 // Basic salary = 45000; HRA = 20%, DA = 10%, PF = 12%.
