@@ -2,26 +2,26 @@
 // Given price = 850, quantity = 4, discount = 200,
 // delivery charge = 100. Calculate total price and final bill.
 
- class M {
-   public static void main(String[] args) {
-  int price = 850;
-  int quantity = 4;
-  int discount = 200;
-  int delivery = 100;
+class M {
+    public static void main(String[] args) {
+        int price = 850;
+        int quantity = 4;
+        int discount = 200;
+        int delivery = 100;
 
-  int totalPrice = price * quantity;
-  int finalBill = totalPrice - discount + delivery;
+        int totalPrice = price * quantity;
+        int finalBill = totalPrice - discount + delivery;
 
- System.out.println("Total Price = " + totalPrice);
- System.out.println("Final Bill = " + finalBill);
- }
+        System.out.println("Total Price = " + totalPrice);
+        System.out.println("Final Bill = " + finalBill);
+    }
 }
 
 // QUESTION 2 (Original)
 // Basic salary = 45000; HRA = 20%, DA = 10%, PF = 12%.
 // Calculate Gross Salary and Net Salary.
 
-public class ALL_CLASS {
+public class QUETIONS {
     public static void main(String[] args) {
         double basic = 45000;
         double hra = basic * 0.20;
