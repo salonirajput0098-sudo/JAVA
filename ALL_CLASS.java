@@ -181,7 +181,7 @@ class bhg{
 }
 
 
-class Main {
+class mynum {
   public static void main(String[] args) {
     var myNum = 5;          // int
     var myDouble = 9.98;    // double
@@ -239,7 +239,7 @@ class SumFive {
 // Given price = 850, quantity = 4, discount = 200,
 // delivery charge = 100. Calculate total price and final bill.
 
- class Main {
+ class price{
  public static void main(String[] args) {
  int price = 850;
  int quantity = 4;
@@ -277,10 +277,11 @@ public class ALL_CLASS {
     }
 }
 
+
 // QUESTION 3 (Original)
 // Print this star pattern WITHOUT using loops.
 
-class StarPattern {
+public class StarPattern {
     public static void main(String[] args) {
         System.out.println("*");
         System.out.println("* *");
@@ -483,3 +484,372 @@ class maks {
         System.out.println(result);
     }
 }
+
+
+// Q1. Write a Java program to input two numbers
+// and display the greater number using the ternary operator.
+
+class GreaterNumber { 
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter first number: ");
+        int a = sc.nextInt();
+
+        System.out.print("Enter second number: ");
+        int b = sc.nextInt();
+
+        int greater = (a > b) ? a : b;
+
+        if (a == b) {
+            System.out.println("Both numbers are equal.");
+        } else {
+            System.out.println("Greater number is: " + greater);
+        }
+    }
+}
+
+
+// Q2. Write a Java program to input two numbers and print
+// their sum, difference, product, quotient, remainder and increment.
+
+class ArithmeticOperations {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter first number: ");
+        int a = sc.nextInt();
+
+        System.out.print("Enter second number: ");
+        int b = sc.nextInt();
+
+        System.out.println("Sum = " + (a + b));
+        System.out.println("Difference = " + (a - b));
+        System.out.println("Product = " + (a * b));
+
+        if (b != 0) {
+            System.out.println("Quotient = " + (a / b));
+            System.out.println("Remainder = " + (a % b));
+        } else {
+            System.out.println("Division by zero is not possible.");
+        }
+
+        a++;
+        System.out.println("Increment of first number = " + a);
+    }
+}
+
+
+// Q3. Write a Java program to input a character and check
+// whether it is an uppercase English letter using relational operators.
+
+class UppercaseCheck {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a character: ");
+        char ch = sc.next().charAt(0);
+
+        if (ch >= 'A' && ch <= 'Z') {
+            System.out.println("It is an uppercase English letter.");
+        } else {
+            System.out.println("It is not an uppercase English letter.");
+        }
+    }
+}
+
+
+// Q4. Write a Java program to input a person's age and citizenship
+// status and display voting eligibility using logical operators.
+
+class VotingEligibility {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter your age: ");
+        int age = sc.nextInt();
+
+        System.out.print("Are you an Indian citizen? (true/false): ");
+        boolean citizen = sc.nextBoolean();
+
+        if (age >= 18 && citizen) {
+            System.out.println("You are eligible to vote.");
+        } else {
+            System.out.println("You are not eligible to vote.");
+        }
+    }
+}
+
+
+// Q5. Write a Java program to input three integers and find
+// the smallest number using nested ternary operator.
+
+class SmallestNumber {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter first number: ");
+        int a = sc.nextInt();
+
+        System.out.print("Enter second number: ");
+        int b = sc.nextInt();
+
+        System.out.print("Enter third number: ");
+        int c = sc.nextInt();
+
+        int smallest = (a < b)
+                ? ((a < c) ? a : c)
+                : ((b < c) ? b : c);
+
+        System.out.println("Smallest number is: " + smallest);
+    }
+}
+
+// BITWISE OPERATOR AND & OPERATOR
+
+class  str{
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+
+    System.out.print("Enter first number: ");
+    int a = sc.nextInt();
+
+    System.out.print("Enter first number: ");
+    int b = sc.nextInt();
+
+    System.out.print("Enter first number: ");
+    int result = a&b;
+
+    System.out.println("the num is " + result);
+    }
+}
+
+//BITWISE OR | OPERATOR
+
+class  stri{
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+
+    System.out.print("Enter first number: ");
+    int a = sc.nextInt();
+
+    System.out.print("Enter first number: ");
+    int b = sc.nextInt();
+
+    System.out.print("Enter first number: ");
+    int result = a|b;
+
+    System.out.println("the num is " + result);
+    }
+}
+
+//BITWISE XOR OPERATOR ''^''
+
+class  string{
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+
+    System.out.print("Enter first number: ");
+    int a = sc.nextInt();
+
+    System.out.print("Enter first number: ");
+    int b = sc.nextInt();
+
+    System.out.print("Enter first number: ");
+    int result = a^b;
+
+    System.out.println(result = +a^b);
+    }
+}
+
+//BITWISE NOT OPERATOR ()
+
+class  string1{
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+
+    System.out.print("Enter first number: ");
+    int a = sc.nextInt();
+
+    System.out.print("Enter first number: ");
+    int result = ~a;
+
+    System.out.println("the num is " + result);
+    }
+}
+
+//BITWISE NOT OPERATOR IN CHAR (~ is symbol ko Tilde (टिल्ड) bolte he )
+
+class  string2{
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Enter your first number");
+    char result = ~'A';
+    
+    System.out.println(result);
+    }
+}
+
+
+class Stringgg {
+    public static void main(String[] args) {
+        char letter = 'K';
+
+        int result = ~letter;
+
+        System.out.println("Character = " + letter);
+        System.out.println("Result = " + result);
+    }
+}
+
+//BITWISE LEFT SHIFT <<
+
+class  string3{
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int result = 21<<8;
+
+    System.out.println("the num is " + result);
+    }
+}
+
+//BITWISE RIGHT SHIFT >> 
+
+class  string4{
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int result = 24>>8;
+
+    System.out.println("the num is " + result);
+    }
+}
+//BITWISE RIGHT SIFT OPERATOR " >> "
+class  string5{
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int result = 40>>2;
+
+    System.out.println("the num is " + result);
+    }
+}
+
+// QUESTION 1
+// Write a Java program to calculate the result of 7 >> 2
+// and 28 << 2 using shift operators.
+
+class Q1_ShiftOperators {
+    public static void main(String[] args) {
+        int a = 7;
+        int b = 28;
+
+        System.out.println("7 >> 2 = " + (a >> 2));
+        System.out.println("28 << 2 = " + (b << 2));
+    }
+}
+
+
+// QUESTION 2
+// Write a Java program to check whether a number is even or odd
+// using the bitwise AND (&) operator without using the modulus operator.
+
+class Q2_EvenOdd {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int n = sc.nextInt();
+
+        if ((n & 1) == 0) {
+            System.out.println(n + " is Even");
+        } else {
+            System.out.println(n + " is Odd");
+        }
+    }
+}
+
+//WITHOUT USING IF ELSE
+
+
+class _EvenOddd {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int n = sc.nextInt();
+
+        String result = (n & 1) == 0 ? "Even" : "Odd";
+
+        System.out.println("Number is " + result);
+    }
+}
+
+
+// QUESTION 3
+// Write a Java program to perform bitwise AND, OR, and XOR
+// operations on two integers where a = 5 and b = 9.
+
+class Q3_BitwiseOperators {
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 9;
+
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+
+        System.out.println("AND = " + (a & b));
+        System.out.println("OR = " + (a | b));
+        System.out.println("XOR = " + (a ^ b));
+    }
+}
+
+//TYPE CASTING 
+//WIDENING CASTING
+//int to double
+
+class Q3_Bitwise {
+    public static void main(String[] args) {
+        int a = 5;
+        double b = a;
+
+        System.out.println(a);
+        System.out.println(b);
+    }
+}
+// 
+class Q3_Bitwis{
+    public static void main(String[] args) {
+        char a = 'A';
+        int x = a;
+        double y = a;
+
+        System.out.println(a);
+        System.out.println(x);
+        System.out.println(y);
+
+    }
+}
+
+//NARROWING CASTING
+class norrowing{
+    public static void main(String[] args) {
+        int x = 65;
+        char a = (char)x;
+
+        System.out.println(x);
+        System.out.println(a);
+
+    }
+}
+
+class norrowingg{
+    public static void main(String[] args) {
+        double x = 65.999999;
+        int a = (int) x;
+
+        System.out.println(x);
+        System.out.println(a);
+
+    }
+}
+
+
